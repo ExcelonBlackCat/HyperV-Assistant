@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Hyper-V-Assistant.exe" version="1.0.0.0" publicKeyToken="32b5b7bbb9a30573" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Hyper-V-Assistant" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Hyper-V-Assistant.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options du manifeste de contrôle de compte d’utilisateur (UAC)
+          Si vous voulez changer le niveau de contrôle de compte d’utilisateur Windows, remplacez le 
+          nœud requestedExecutionLevel par l’un des nœuds suivants.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si vous voulez utiliser la virtualisation de fichiers système et du Registre pour la 
+         compatibilité descendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Hyper-V-Assistant.exe" size="265752">
+      <assemblyIdentity name="Hyper-V-Assistant" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3KS6HBTrTvPbT4MqzU/aj6TVIeMdQBWN0sek1GevMJ0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Management.Automation.dll" size="3010560">
+      <assemblyIdentity name="System.Management.Automation" version="1.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4QUK87p75YF8gXDW4uPaLq8UQhKMFxjhCwgNNU/EitQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Hyper-V-Assistant.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WIN-HPINCGKGJ9M\Administrateur" issuerKeyHash="912fb2aea2c8fc7051ceb610d739cc7489c11890" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>TOOragL1ZSKWaqaAj+CiAHBJ5TtgeL+ar2RqE4dMk84=</DigestValue></Reference></SignedInfo><SignatureValue>JMOLn9ij+w1kVaxpVsrdxKQlhzAhnWajEUXA+6hV3iYXAef7mR2PsREAp48GKLxF1g8yc6AQKhNrvfOsP7bJsCwGbcWknfq4uqJ8rgd45mlju/3DWq6iz+DRxiaFrTcqD10oiQ4rySanJuK3JVHF15nDvjrl+4UR40Jp8kYNIKI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pnVEDYrhMwUON0s7GCyOnJyeLkiVy1fSmX7//lqYx7Fu8Zj+U8ZNBrk5Mh7RwZCgO2boD4YPTlkY5Inas0qdr5WcNOA/Szo4I5+iDmtb7Yw9xE2Ii6BNLX3Jvv+AIsHk2qhPauGl60XWE6yctnUXwd9sUnc7mJHv6ZyXnnbNPTk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ce934c87136a64af9abf78603be5497000a2e08f80a66a962265f5026aabe34c" Description="" Url=""><as:assemblyIdentity name="Hyper-V-Assistant.exe" version="1.0.0.0" publicKeyToken="32b5b7bbb9a30573" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WIN-HPINCGKGJ9M\Administrateur</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>L+V/azj247vkNUIILXFDc6/FABB/84M0334Z3+dtSkY=</DigestValue></Reference></SignedInfo><SignatureValue>b7u9PTVr61XcLbYhJrimOvbJWCRDw/WrN0YR4DdxTwWkoTNHMlj78Gsc5QL0eKouq5zuVb21P2mULBWXeR4/O2VRm23ptdBXVLPSiqBaPc9DvxAst4uojf0W3m0ld7tzNt2tRGSmaj4rG0lNkOhre4GULkz2KvGPorpeEXmycmk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pnVEDYrhMwUON0s7GCyOnJyeLkiVy1fSmX7//lqYx7Fu8Zj+U8ZNBrk5Mh7RwZCgO2boD4YPTlkY5Inas0qdr5WcNOA/Szo4I5+iDmtb7Yw9xE2Ii6BNLX3Jvv+AIsHk2qhPauGl60XWE6yctnUXwd9sUnc7mJHv6ZyXnnbNPTk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQPvCw4S+zKJVF65Lv9Xnh0jANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDHjwAVwBJAE4ALQBIAFAASQBOAEMARwBLAEcASgA5AE0AXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAZQB1AHIwHhcNMTgwMzE2MTQzMTI1WhcNMTkwMzE2MjAzMTI1WjBHMUUwQwYDVQQDHjwAVwBJAE4ALQBIAFAASQBOAEMARwBLAEcASgA5AE0AXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAZQB1AHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKZ1RA2K4TMFDjdLOxgsjpycni5IlctX0pl+//5amMexbvGY/lPGTQa5OTIe0cGQoDtm6A+GD05ZGOSJ2rNKna+VnDTgP0s6OCOfog5rW+2MPcRNiIugTS19yb7/gCLB5NqoT2rhpetF1hOsnLZ1F8HfbFJ3O5iR7+mcl552zT05AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAfmCqEGWID4bhwOUXlccnkahRFGidvbDGbTbmVRZj48h6F8UYOtmfaLz6yuqvCmiHiORbrkNxR42g9FGEiKX3oomSFzHxKqp7xOPC5nwLX0LnjsU5JWiI0jK6aUNkv3xfMFjIGLSqhrjVsfZHmnnhIIIjnEY3OYWf/29pOiTGWnE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,16 @@
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\bin\Release\Hyper-V-Assistant.exe.config
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\bin\Release\Hyper-V-Assistant.exe.manifest
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\bin\Release\Hyper-V-Assistant.application
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\bin\Release\Hyper-V-Assistant.exe
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\bin\Release\Hyper-V-Assistant.pdb
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\bin\Release\System.Management.Automation.dll
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\obj\Release\Hyper-V-Assistant.csprojResolveAssemblyReference.cache
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\obj\Release\Hyper_V_Assistant.MainForm.resources
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\obj\Release\Hyper_V_Assistant.Properties.Resources.resources
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\obj\Release\Hyper-V-Assistant.csproj.GenerateResource.cache
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\obj\Release\Hyper-V-Assistant.csproj.CoreCompileInputs.cache
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\obj\Release\Hyper-V-Assistant.exe.manifest
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\obj\Release\Hyper-V-Assistant.application
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\obj\Release\Hyper-V-Assistant.csproj.CopyComplete
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\obj\Release\Hyper-V-Assistant.exe
+C:\Users\ASRBD33\Downloads\Hyper-V-Assistant-20180409T093945Z-001\Hyper-V-Assistant\Hyper-V-Assistant\obj\Release\Hyper-V-Assistant.pdb

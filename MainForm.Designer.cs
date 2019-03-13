@@ -33,46 +33,46 @@
             this.fichierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fichierDeConfigurationcsvToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
+            this.ButtonCreationVSwitch = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.buttonDeleteVMSwitch = new System.Windows.Forms.Button();
+            this.buttonAjoutVMSwitch = new System.Windows.Forms.Button();
+            this.checkBoxINT = new System.Windows.Forms.CheckBox();
+            this.checkBoxLAN = new System.Windows.Forms.CheckBox();
+            this.checkBoxWAN = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.textBoxNameVMSwitch = new System.Windows.Forms.TextBox();
+            this.checkedListBoxVMSwitch = new System.Windows.Forms.CheckedListBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.checkedListBoxMaster = new System.Windows.Forms.CheckedListBox();
+            this.buttonParcourirMaster = new System.Windows.Forms.Button();
+            this.textBoxMasterPath = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.buttonAjoutVMSwitchToVM = new System.Windows.Forms.Button();
+            this.buttonParcourirVHDPath = new System.Windows.Forms.Button();
+            this.buttonCreateVM = new System.Windows.Forms.Button();
+            this.textBoxRAM = new System.Windows.Forms.TextBox();
+            this.textBoxVHDPath = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.trackBarRAM = new System.Windows.Forms.TrackBar();
+            this.textBoxVMName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.buttonDeleteVM = new System.Windows.Forms.Button();
+            this.checkedListBoxVM = new System.Windows.Forms.CheckedListBox();
+            this.buttonParcourirVMPath = new System.Windows.Forms.Button();
+            this.textBoxVMPath = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.listBoxLogs = new System.Windows.Forms.ListBox();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.label7 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button9 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarRAM)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,36 +101,36 @@
             this.fichierDeConfigurationcsvToolStripMenuItem.Name = "fichierDeConfigurationcsvToolStripMenuItem";
             this.fichierDeConfigurationcsvToolStripMenuItem.Size = new System.Drawing.Size(291, 26);
             this.fichierDeConfigurationcsvToolStripMenuItem.Text = "Fichier de configuration (.csv)... ";
-            this.fichierDeConfigurationcsvToolStripMenuItem.Click += new System.EventHandler(this.fichierDeConfigurationcsvToolStripMenuItem_Click);
+            this.fichierDeConfigurationcsvToolStripMenuItem.Click += new System.EventHandler(this.FichierDeConfigurationcsvToolStripMenuItem_Click);
             // 
             // aideToolStripMenuItem
             // 
             this.aideToolStripMenuItem.Name = "aideToolStripMenuItem";
             this.aideToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
             this.aideToolStripMenuItem.Text = "Aide";
-            this.aideToolStripMenuItem.Click += new System.EventHandler(this.aideToolStripMenuItem_Click);
+            this.aideToolStripMenuItem.Click += new System.EventHandler(this.AideToolStripMenuItem_Click);
             // 
-            // button1
+            // ButtonCreationVSwitch
             // 
-            this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button1.Location = new System.Drawing.Point(12, 31);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(272, 32);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Création des VSwitch de Base";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.ButtonCreationVSwitch.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.ButtonCreationVSwitch.Location = new System.Drawing.Point(12, 31);
+            this.ButtonCreationVSwitch.Name = "ButtonCreationVSwitch";
+            this.ButtonCreationVSwitch.Size = new System.Drawing.Size(272, 32);
+            this.ButtonCreationVSwitch.TabIndex = 1;
+            this.ButtonCreationVSwitch.Text = "Création des VSwitch de Base";
+            this.ButtonCreationVSwitch.UseVisualStyleBackColor = true;
+            this.ButtonCreationVSwitch.Click += new System.EventHandler(this.Button1_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.checkBox3);
-            this.groupBox1.Controls.Add(this.checkBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.buttonDeleteVMSwitch);
+            this.groupBox1.Controls.Add(this.buttonAjoutVMSwitch);
+            this.groupBox1.Controls.Add(this.checkBoxINT);
+            this.groupBox1.Controls.Add(this.checkBoxLAN);
+            this.groupBox1.Controls.Add(this.checkBoxWAN);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.checkedListBox1);
+            this.groupBox1.Controls.Add(this.textBoxNameVMSwitch);
+            this.groupBox1.Controls.Add(this.checkedListBoxVMSwitch);
             this.groupBox1.Location = new System.Drawing.Point(12, 69);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(272, 426);
@@ -138,63 +138,63 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "VSwitches";
             // 
-            // button3
+            // buttonDeleteVMSwitch
             // 
-            this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button3.Location = new System.Drawing.Point(6, 390);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(260, 30);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Supprimer";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.buttonDeleteVMSwitch.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonDeleteVMSwitch.Location = new System.Drawing.Point(6, 390);
+            this.buttonDeleteVMSwitch.Name = "buttonDeleteVMSwitch";
+            this.buttonDeleteVMSwitch.Size = new System.Drawing.Size(260, 30);
+            this.buttonDeleteVMSwitch.TabIndex = 3;
+            this.buttonDeleteVMSwitch.Text = "Supprimer";
+            this.buttonDeleteVMSwitch.UseVisualStyleBackColor = true;
+            this.buttonDeleteVMSwitch.Click += new System.EventHandler(this.Button3_Click);
             // 
-            // button2
+            // buttonAjoutVMSwitch
             // 
-            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Location = new System.Drawing.Point(6, 78);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(260, 28);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Ajouter";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.buttonAjoutVMSwitch.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonAjoutVMSwitch.Location = new System.Drawing.Point(6, 78);
+            this.buttonAjoutVMSwitch.Name = "buttonAjoutVMSwitch";
+            this.buttonAjoutVMSwitch.Size = new System.Drawing.Size(260, 28);
+            this.buttonAjoutVMSwitch.TabIndex = 3;
+            this.buttonAjoutVMSwitch.Text = "Ajouter";
+            this.buttonAjoutVMSwitch.UseVisualStyleBackColor = true;
+            this.buttonAjoutVMSwitch.Click += new System.EventHandler(this.Button2_Click);
             // 
-            // checkBox3
+            // checkBoxINT
             // 
-            this.checkBox3.AccessibleDescription = "";
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(214, 53);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(52, 21);
-            this.checkBox3.TabIndex = 3;
-            this.checkBox3.Text = "INT";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            this.checkBox3.Click += new System.EventHandler(this.checkBox3_Click);
+            this.checkBoxINT.AccessibleDescription = "";
+            this.checkBoxINT.AutoSize = true;
+            this.checkBoxINT.Location = new System.Drawing.Point(214, 53);
+            this.checkBoxINT.Name = "checkBoxINT";
+            this.checkBoxINT.Size = new System.Drawing.Size(52, 21);
+            this.checkBoxINT.TabIndex = 3;
+            this.checkBoxINT.Text = "INT";
+            this.checkBoxINT.UseVisualStyleBackColor = true;
+            this.checkBoxINT.Click += new System.EventHandler(this.CheckBox3_Click);
             // 
-            // checkBox2
+            // checkBoxLAN
             // 
-            this.checkBox2.AccessibleDescription = "";
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(107, 53);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(57, 21);
-            this.checkBox2.TabIndex = 3;
-            this.checkBox2.Text = "LAN";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.Click += new System.EventHandler(this.checkBox2_Click);
+            this.checkBoxLAN.AccessibleDescription = "";
+            this.checkBoxLAN.AutoSize = true;
+            this.checkBoxLAN.Location = new System.Drawing.Point(107, 53);
+            this.checkBoxLAN.Name = "checkBoxLAN";
+            this.checkBoxLAN.Size = new System.Drawing.Size(57, 21);
+            this.checkBoxLAN.TabIndex = 3;
+            this.checkBoxLAN.Text = "LAN";
+            this.checkBoxLAN.UseVisualStyleBackColor = true;
+            this.checkBoxLAN.Click += new System.EventHandler(this.CheckBox2_Click);
             // 
-            // checkBox1
+            // checkBoxWAN
             // 
-            this.checkBox1.AccessibleDescription = "";
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(9, 53);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(62, 21);
-            this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = "WAN";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.Click += new System.EventHandler(this.checkBox1_Click);
+            this.checkBoxWAN.AccessibleDescription = "";
+            this.checkBoxWAN.AutoSize = true;
+            this.checkBoxWAN.Location = new System.Drawing.Point(9, 53);
+            this.checkBoxWAN.Name = "checkBoxWAN";
+            this.checkBoxWAN.Size = new System.Drawing.Size(62, 21);
+            this.checkBoxWAN.TabIndex = 3;
+            this.checkBoxWAN.Text = "WAN";
+            this.checkBoxWAN.UseVisualStyleBackColor = true;
+            this.checkBoxWAN.Click += new System.EventHandler(this.CheckBox1_Click);
             // 
             // label1
             // 
@@ -205,28 +205,28 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Nom du VSwitch";
             // 
-            // textBox1
+            // textBoxNameVMSwitch
             // 
-            this.textBox1.Location = new System.Drawing.Point(122, 21);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(144, 22);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
+            this.textBoxNameVMSwitch.Location = new System.Drawing.Point(122, 21);
+            this.textBoxNameVMSwitch.Name = "textBoxNameVMSwitch";
+            this.textBoxNameVMSwitch.Size = new System.Drawing.Size(144, 22);
+            this.textBoxNameVMSwitch.TabIndex = 3;
+            this.textBoxNameVMSwitch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox1_KeyDown);
             // 
-            // checkedListBox1
+            // checkedListBoxVMSwitch
             // 
-            this.checkedListBox1.CheckOnClick = true;
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(6, 112);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(260, 276);
-            this.checkedListBox1.TabIndex = 0;
+            this.checkedListBoxVMSwitch.CheckOnClick = true;
+            this.checkedListBoxVMSwitch.FormattingEnabled = true;
+            this.checkedListBoxVMSwitch.Location = new System.Drawing.Point(6, 112);
+            this.checkedListBoxVMSwitch.Name = "checkedListBoxVMSwitch";
+            this.checkedListBoxVMSwitch.Size = new System.Drawing.Size(260, 276);
+            this.checkedListBoxVMSwitch.TabIndex = 0;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.checkedListBox2);
-            this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.checkedListBoxMaster);
+            this.groupBox2.Controls.Add(this.buttonParcourirMaster);
+            this.groupBox2.Controls.Add(this.textBoxMasterPath);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Location = new System.Drawing.Point(290, 31);
             this.groupBox2.Name = "groupBox2";
@@ -235,34 +235,34 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Masters";
             // 
-            // checkedListBox2
+            // checkedListBoxMaster
             // 
-            this.checkedListBox2.CheckOnClick = true;
-            this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Location = new System.Drawing.Point(6, 70);
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(346, 174);
-            this.checkedListBox2.TabIndex = 4;
-            this.checkedListBox2.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.checkedListBox2_ItemCheck);
+            this.checkedListBoxMaster.CheckOnClick = true;
+            this.checkedListBoxMaster.FormattingEnabled = true;
+            this.checkedListBoxMaster.Location = new System.Drawing.Point(6, 70);
+            this.checkedListBoxMaster.Name = "checkedListBoxMaster";
+            this.checkedListBoxMaster.Size = new System.Drawing.Size(346, 174);
+            this.checkedListBoxMaster.TabIndex = 4;
+            this.checkedListBoxMaster.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.CheckedListBox2_ItemCheck);
             // 
-            // button4
+            // buttonParcourirMaster
             // 
-            this.button4.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button4.Location = new System.Drawing.Point(262, 15);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(89, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Parcourir";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.buttonParcourirMaster.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonParcourirMaster.Location = new System.Drawing.Point(262, 15);
+            this.buttonParcourirMaster.Name = "buttonParcourirMaster";
+            this.buttonParcourirMaster.Size = new System.Drawing.Size(89, 23);
+            this.buttonParcourirMaster.TabIndex = 4;
+            this.buttonParcourirMaster.Text = "Parcourir";
+            this.buttonParcourirMaster.UseVisualStyleBackColor = true;
+            this.buttonParcourirMaster.Click += new System.EventHandler(this.Button4_Click);
             // 
-            // textBox2
+            // textBoxMasterPath
             // 
-            this.textBox2.Location = new System.Drawing.Point(114, 16);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(142, 22);
-            this.textBox2.TabIndex = 2;
+            this.textBoxMasterPath.Location = new System.Drawing.Point(114, 16);
+            this.textBoxMasterPath.Name = "textBoxMasterPath";
+            this.textBoxMasterPath.ReadOnly = true;
+            this.textBoxMasterPath.Size = new System.Drawing.Size(142, 22);
+            this.textBoxMasterPath.TabIndex = 2;
             // 
             // label2
             // 
@@ -275,20 +275,20 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.button9);
-            this.groupBox3.Controls.Add(this.button8);
-            this.groupBox3.Controls.Add(this.button7);
-            this.groupBox3.Controls.Add(this.textBox5);
-            this.groupBox3.Controls.Add(this.textBox6);
+            this.groupBox3.Controls.Add(this.buttonAjoutVMSwitchToVM);
+            this.groupBox3.Controls.Add(this.buttonParcourirVHDPath);
+            this.groupBox3.Controls.Add(this.buttonCreateVM);
+            this.groupBox3.Controls.Add(this.textBoxRAM);
+            this.groupBox3.Controls.Add(this.textBoxVHDPath);
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.trackBar1);
-            this.groupBox3.Controls.Add(this.textBox4);
+            this.groupBox3.Controls.Add(this.trackBarRAM);
+            this.groupBox3.Controls.Add(this.textBoxVMName);
             this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.button6);
-            this.groupBox3.Controls.Add(this.checkedListBox3);
-            this.groupBox3.Controls.Add(this.button5);
-            this.groupBox3.Controls.Add(this.textBox3);
+            this.groupBox3.Controls.Add(this.buttonDeleteVM);
+            this.groupBox3.Controls.Add(this.checkedListBoxVM);
+            this.groupBox3.Controls.Add(this.buttonParcourirVMPath);
+            this.groupBox3.Controls.Add(this.textBoxVMPath);
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Location = new System.Drawing.Point(654, 31);
             this.groupBox3.Name = "groupBox3";
@@ -297,43 +297,54 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "VMs";
             // 
-            // button8
+            // buttonAjoutVMSwitchToVM
             // 
-            this.button8.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button8.Location = new System.Drawing.Point(265, 79);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(89, 23);
-            this.button8.TabIndex = 15;
-            this.button8.Text = "Parcourir";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.buttonAjoutVMSwitchToVM.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonAjoutVMSwitchToVM.Location = new System.Drawing.Point(181, 428);
+            this.buttonAjoutVMSwitchToVM.Name = "buttonAjoutVMSwitchToVM";
+            this.buttonAjoutVMSwitchToVM.Size = new System.Drawing.Size(171, 30);
+            this.buttonAjoutVMSwitchToVM.TabIndex = 16;
+            this.buttonAjoutVMSwitchToVM.Text = "Add VSwitch";
+            this.buttonAjoutVMSwitchToVM.UseVisualStyleBackColor = true;
+            this.buttonAjoutVMSwitchToVM.Click += new System.EventHandler(this.Button9_Click);
             // 
-            // button7
+            // buttonParcourirVHDPath
             // 
-            this.button7.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button7.Location = new System.Drawing.Point(238, 120);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(114, 28);
-            this.button7.TabIndex = 4;
-            this.button7.Text = "Ajouter";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.buttonParcourirVHDPath.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonParcourirVHDPath.Location = new System.Drawing.Point(265, 79);
+            this.buttonParcourirVHDPath.Name = "buttonParcourirVHDPath";
+            this.buttonParcourirVHDPath.Size = new System.Drawing.Size(89, 23);
+            this.buttonParcourirVHDPath.TabIndex = 15;
+            this.buttonParcourirVHDPath.Text = "Parcourir";
+            this.buttonParcourirVHDPath.UseVisualStyleBackColor = true;
+            this.buttonParcourirVHDPath.Click += new System.EventHandler(this.Button8_Click);
             // 
-            // textBox5
+            // buttonCreateVM
             // 
-            this.textBox5.Location = new System.Drawing.Point(53, 126);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(113, 22);
-            this.textBox5.TabIndex = 12;
+            this.buttonCreateVM.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonCreateVM.Location = new System.Drawing.Point(238, 120);
+            this.buttonCreateVM.Name = "buttonCreateVM";
+            this.buttonCreateVM.Size = new System.Drawing.Size(114, 28);
+            this.buttonCreateVM.TabIndex = 4;
+            this.buttonCreateVM.Text = "Ajouter";
+            this.buttonCreateVM.UseVisualStyleBackColor = true;
+            this.buttonCreateVM.Click += new System.EventHandler(this.Button7_Click);
             // 
-            // textBox6
+            // textBoxRAM
             // 
-            this.textBox6.Location = new System.Drawing.Point(117, 79);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(142, 22);
-            this.textBox6.TabIndex = 14;
+            this.textBoxRAM.Location = new System.Drawing.Point(53, 126);
+            this.textBoxRAM.Name = "textBoxRAM";
+            this.textBoxRAM.ReadOnly = true;
+            this.textBoxRAM.Size = new System.Drawing.Size(113, 22);
+            this.textBoxRAM.TabIndex = 12;
+            // 
+            // textBoxVHDPath
+            // 
+            this.textBoxVHDPath.Location = new System.Drawing.Point(117, 79);
+            this.textBoxVHDPath.Name = "textBoxVHDPath";
+            this.textBoxVHDPath.ReadOnly = true;
+            this.textBoxVHDPath.Size = new System.Drawing.Size(142, 22);
+            this.textBoxVHDPath.TabIndex = 14;
             // 
             // label6
             // 
@@ -353,20 +364,20 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "RAM";
             // 
-            // trackBar1
+            // trackBarRAM
             // 
-            this.trackBar1.Location = new System.Drawing.Point(6, 154);
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(346, 56);
-            this.trackBar1.TabIndex = 8;
-            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
+            this.trackBarRAM.Location = new System.Drawing.Point(6, 154);
+            this.trackBarRAM.Name = "trackBarRAM";
+            this.trackBarRAM.Size = new System.Drawing.Size(346, 56);
+            this.trackBarRAM.TabIndex = 8;
+            this.trackBarRAM.Scroll += new System.EventHandler(this.TrackBar1_Scroll);
             // 
-            // textBox4
+            // textBoxVMName
             // 
-            this.textBox4.Location = new System.Drawing.Point(117, 18);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(142, 22);
-            this.textBox4.TabIndex = 4;
+            this.textBoxVMName.Location = new System.Drawing.Point(117, 18);
+            this.textBoxVMName.Name = "textBoxVMName";
+            this.textBoxVMName.Size = new System.Drawing.Size(142, 22);
+            this.textBoxVMName.TabIndex = 4;
             // 
             // label4
             // 
@@ -377,45 +388,44 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Nom de la VM";
             // 
-            // button6
+            // buttonDeleteVM
             // 
-            this.button6.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button6.Location = new System.Drawing.Point(6, 428);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(169, 30);
-            this.button6.TabIndex = 4;
-            this.button6.Text = "Supprimer";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.buttonDeleteVM.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonDeleteVM.Location = new System.Drawing.Point(6, 428);
+            this.buttonDeleteVM.Name = "buttonDeleteVM";
+            this.buttonDeleteVM.Size = new System.Drawing.Size(169, 30);
+            this.buttonDeleteVM.TabIndex = 4;
+            this.buttonDeleteVM.Text = "Supprimer";
+            this.buttonDeleteVM.UseVisualStyleBackColor = true;
+            this.buttonDeleteVM.Click += new System.EventHandler(this.Button6_Click);
             // 
-            // checkedListBox3
+            // checkedListBoxVM
             // 
-            this.checkedListBox3.CheckOnClick = true;
-            this.checkedListBox3.FormattingEnabled = true;
-            this.checkedListBox3.Location = new System.Drawing.Point(6, 216);
-            this.checkedListBox3.Name = "checkedListBox3";
-            this.checkedListBox3.Size = new System.Drawing.Size(346, 208);
-            this.checkedListBox3.TabIndex = 8;
-            this.checkedListBox3.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.checkedListBox3_ItemCheck);
+            this.checkedListBoxVM.CheckOnClick = true;
+            this.checkedListBoxVM.FormattingEnabled = true;
+            this.checkedListBoxVM.Location = new System.Drawing.Point(6, 216);
+            this.checkedListBoxVM.Name = "checkedListBoxVM";
+            this.checkedListBoxVM.Size = new System.Drawing.Size(346, 208);
+            this.checkedListBoxVM.TabIndex = 8;
             // 
-            // button5
+            // buttonParcourirVMPath
             // 
-            this.button5.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button5.Location = new System.Drawing.Point(265, 48);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(89, 23);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Parcourir";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.buttonParcourirVMPath.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonParcourirVMPath.Location = new System.Drawing.Point(265, 48);
+            this.buttonParcourirVMPath.Name = "buttonParcourirVMPath";
+            this.buttonParcourirVMPath.Size = new System.Drawing.Size(89, 23);
+            this.buttonParcourirVMPath.TabIndex = 7;
+            this.buttonParcourirVMPath.Text = "Parcourir";
+            this.buttonParcourirVMPath.UseVisualStyleBackColor = true;
+            this.buttonParcourirVMPath.Click += new System.EventHandler(this.Button5_Click);
             // 
-            // textBox3
+            // textBoxVMPath
             // 
-            this.textBox3.Location = new System.Drawing.Point(117, 48);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(142, 22);
-            this.textBox3.TabIndex = 6;
+            this.textBoxVMPath.Location = new System.Drawing.Point(117, 48);
+            this.textBoxVMPath.Name = "textBoxVMPath";
+            this.textBoxVMPath.ReadOnly = true;
+            this.textBoxVMPath.Size = new System.Drawing.Size(142, 22);
+            this.textBoxVMPath.TabIndex = 6;
             // 
             // label3
             // 
@@ -428,7 +438,7 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.listBox1);
+            this.groupBox4.Controls.Add(this.listBoxLogs);
             this.groupBox4.Controls.Add(this.progressBar1);
             this.groupBox4.Controls.Add(this.label7);
             this.groupBox4.Location = new System.Drawing.Point(290, 281);
@@ -437,6 +447,16 @@
             this.groupBox4.TabIndex = 5;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Moniteur";
+            // 
+            // listBoxLogs
+            // 
+            this.listBoxLogs.FormattingEnabled = true;
+            this.listBoxLogs.ItemHeight = 16;
+            this.listBoxLogs.Location = new System.Drawing.Point(6, 92);
+            this.listBoxLogs.Name = "listBoxLogs";
+            this.listBoxLogs.Size = new System.Drawing.Size(346, 116);
+            this.listBoxLogs.TabIndex = 2;
+            this.listBoxLogs.Click += new System.EventHandler(this.ListBox1_Click);
             // 
             // progressBar1
             // 
@@ -454,27 +474,6 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Barre d\'état";
             // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(6, 92);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(346, 116);
-            this.listBox1.TabIndex = 2;
-            this.listBox1.Click += new System.EventHandler(this.listBox1_Click);
-            // 
-            // button9
-            // 
-            this.button9.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button9.Location = new System.Drawing.Point(181, 428);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(171, 30);
-            this.button9.TabIndex = 16;
-            this.button9.Text = "Add VSwitch";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -484,7 +483,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ButtonCreationVSwitch);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -499,7 +498,7 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarRAM)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
@@ -513,41 +512,41 @@
         private System.Windows.Forms.ToolStripMenuItem aideToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fichierToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fichierDeConfigurationcsvToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button ButtonCreationVSwitch;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckedListBox checkedListBoxVMSwitch;
+        private System.Windows.Forms.Button buttonDeleteVMSwitch;
+        private System.Windows.Forms.Button buttonAjoutVMSwitch;
+        private System.Windows.Forms.CheckBox checkBoxINT;
+        private System.Windows.Forms.CheckBox checkBoxLAN;
+        private System.Windows.Forms.CheckBox checkBoxWAN;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxNameVMSwitch;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxMasterPath;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.CheckedListBox checkedListBox2;
+        private System.Windows.Forms.Button buttonParcourirMaster;
+        private System.Windows.Forms.CheckedListBox checkedListBoxMaster;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button buttonParcourirVMPath;
+        private System.Windows.Forms.TextBox textBoxVMPath;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxVMName;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.CheckedListBox checkedListBox3;
+        private System.Windows.Forms.Button buttonDeleteVM;
+        private System.Windows.Forms.CheckedListBox checkedListBoxVM;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TrackBar trackBar1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TrackBar trackBarRAM;
+        private System.Windows.Forms.TextBox textBoxRAM;
+        private System.Windows.Forms.Button buttonCreateVM;
+        private System.Windows.Forms.Button buttonParcourirVHDPath;
+        private System.Windows.Forms.TextBox textBoxVHDPath;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.ListBox listBoxLogs;
+        private System.Windows.Forms.Button buttonAjoutVMSwitchToVM;
     }
 }
 
