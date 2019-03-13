@@ -8,4 +8,9 @@ Gestionnaire Hyper-V Simplifié
 - Sélection des Master, VM et Interfaces Réseaux
 - Gestion de la sélection de la RAM MAX dynamique ( en fonction de votre machine )
 
+![alt tag](https://user-images.githubusercontent.com/37845844/54275455-ed447200-458a-11e9-9a48-3780fde4687e.jpg)
+
+- Ajout de la fonctionnalité de fichiers csv à venir ..
+
+
 Merci de m'avoir lu
